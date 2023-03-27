@@ -13,22 +13,26 @@
             <h1>Tela de cadastro de clientes</h1>
         </div>
         <div class="container">
-            <form action="">
+            <form action="recebidos.php" method="get">
                 <div class="mb-3">
-                    <label for=""> Nome: </label>
-                    <input type="text">
+                    <label for="bt_nome"> Nome: </label>
+                    <input type="text" name="bt_nome">
                 </div>
                 <div class="mb-3">
-                    <label for=""> Endereço: </label>
-                    <input type="text">
+                    <label for="bt_endereco"> Endereço: </label>
+                    <input type="text" name="bt_endereco">
                 </div>
                 <div class="mb-3">
-                    <label for=""> Estado: </label>
-                    <input type="text">
+                    <label for="bt_estado"> Estado: </label>
+                    <input type="text" name="bt_estado">
                 </div>
                 <div class="mb-3">
-                    <label for=""> País: </label>
-                    <input type="text">
+                    <label for="bt_cidade"> Cidade: </label>
+                    <input type="text" name="bt_cidade">
+                </div>
+                <div class="mb-3">
+                    <label for="bt_pais"> País: </label>
+                    <input type="text" name="bt_pais">
                 </div>
                 <div class="mb-3">
                     <input type="submit" class="btn btn-success" value="Enviar">
